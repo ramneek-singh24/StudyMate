@@ -2,73 +2,55 @@
 
 A frontend-only campus community prototype built with React + Vite. Students can discover compatible study partners, save profiles, create study circles, join groups, and personalize matching preferences.
 
-## Run locally
+## here's a working live demo - https://study-mate-lake.vercel.app/
 
-1. Install **Node.js LTS** from https://nodejs.org/
-2. Download and extract this project.
-3. Open the extracted `studymate` folder in VS Code.
-4. Open the VS Code terminal (`Terminal` → `New Terminal`).
-5. Run:
+Tagline: Find your people. Learn together. Achieve more.
 
-   ```bash
-   npm install
-   npm run dev
-   ```
+Act as a senior product designer, React developer, UI/UX specialist and QA engineer.
 
-6. Open the local URL printed in the terminal (usually `http://localhost:5173`).
+Build a premium, fully responsive web application called **StudyMate** for the Smart Campus & Student Life challenge.
 
-## Build for deployment
+**Problem:** College students struggle to find compatible study partners, collaborate on subjects, organize study sessions and find academic communities.
 
-```bash
-npm run build
-npm run preview
-```
+**Solution:** Create a platform that connects students based on shared subjects, interests, skills and availability.
 
-The production website is generated in the `dist` folder.
+### Core features
+1. Modern student dashboard.
+2. Student discovery with search and filters.
+3. Explainable compatibility matching algorithm.
+4. Student profile cards and detailed profiles.
+5. Save and remove favourite study partners.
+6. Create, join and leave study groups.
+7. Personal study preferences and availability.
+8. Responsive navigation for desktop and mobile.
+9. LocalStorage persistence.
+10. Meaningful empty states, validation and feedback.
 
-## Deploy on Vercel
+### Design requirements
+- Premium startup-quality UI.
+- Dark navy theme with purple and blue accents.
+- Consistent typography and spacing.
+- Smooth interactions and polished cards.
+- Accessible controls and responsive layouts.
 
-1. Push this project to a GitHub repository.
-2. Sign in at https://vercel.com/ using GitHub.
-3. Select **Add New → Project** and import your `studymate` repository.
-4. Vercel should detect Vite automatically.
-5. Keep the build command as `npm run build` and output directory as `dist`.
-6. Select **Deploy**.
+### Technical requirements
+Use React, Vite, JavaScript and CSS. Keep the project frontend-only, with realistic demo data and LocalStorage.
 
-## Features
+Do not pretend that demo accounts are real users or that messaging and cross-device synchronization exist.
 
-- Student discovery with text search, subject filter and year filter.
-- Explainable compatibility score based on shared subjects and preferred study time.
-- Save/unsave student profiles (persisted in browser local storage).
-- Study circles: explore, create, join and leave.
-- Personalization: update subjects and availability.
-- Responsive desktop, tablet and mobile layout.
-- Empty states, basic form validation and toast feedback.
+### Quality assurance
+Test navigation, search, filters, matching calculations, saved profiles, group creation, joining/leaving, persistence, mobile responsiveness and form validation.
 
-## Important scope and honest limitations
+Find and fix bugs, inconsistent data, duplicate IDs, broken interactions and layout overflow.
 
-This is a frontend prototype. It uses sample student profiles and browser-local storage. It does **not** provide real accounts, cross-device synchronization, real messaging, verified student identity, or a shared live database. A real campus launch would need a backend, authentication, moderation, privacy controls, and university approval. Do not enter sensitive personal information into this demo.
+### Competition preparation
+Create an honest demonstration flow explaining:
+- The real campus problem.
+- How StudyMate solves it.
+- How compatibility matching works.
+- How students discover partners.
+- How study circles work.
+- The product's future scope.
 
-## Demo walkthrough for judges
-
-1. Start on Overview and explain the campus problem.
-2. Open Find buddies and search for a subject such as Mathematics.
-3. Open a profile and explain the match score and shared-subject reasoning.
-4. Save the profile and show Saved buddies.
-5. Open Study circles, join a group, then create a new one.
-6. Open My schedule and change study time or subjects; explain that recommendations update.
-7. Resize the browser to show responsive design.
-
-## Project structure
-
-```text
-studymate/
-├── index.html
-├── package.json
-├── README.md
-├── PROMPT.md
-└── src/
-    ├── App.jsx
-    ├── main.jsx
-    └── styles.css
+Deliver clean, maintainable code and clear setup and deployment instructions.
 ```
